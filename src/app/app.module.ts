@@ -39,6 +39,7 @@ import { AppRoutingModule } from './app-routing/app-routing.module';
 import { LoginComponent } from './login/login.component';
 import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
 import { MatSliderModule } from '@angular/material';
+import { HighlightDirective } from './directives/highlight.directive';
 
 
 
@@ -52,7 +53,8 @@ import { MatSliderModule } from '@angular/material';
     HomeComponent,
     AboutComponent,
     ContactComponent,
-    LoginComponent
+    LoginComponent,
+    HighlightDirective
   ],
   imports: [
     BrowserModule,
